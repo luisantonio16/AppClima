@@ -23,7 +23,6 @@ body{
     margin: 2px auto 0 auto;
 }
 .container{
-    border: 2px solid white;
     max-width: 1200px;
     margin: auto;
     padding: 30px;
@@ -36,8 +35,6 @@ body{
     flex-direction: column;
     text-align: center;
     margin: 20px auto;
-    border: 2px solid greenyellow;
-
 }
 .Wheather-img img{
     width: 100px;
@@ -73,9 +70,8 @@ form{
     flex-direction: column;
 
 }
-form input,
-select,
-button{
+form 
+select{
     padding: 10px 15px;
     width: 60%;
     color: #464f65;
@@ -133,6 +129,32 @@ button{
     top:90;
     left: 50%;
 }
+
+@media screen and (max-width:600px) {
+    .wheather-box{
+        background-color: #fff;
+        margin: 20px auto;
+        width: 90%;
+        text-align: center;
+        
+    }
+    .wheather-box h2{
+        font-size: 25px;
+        margin: 10px auto;
+        color: #464f65;
+    }
+     form 
+     select{
+    width: 80%;
+    color: #464f65;
+    font-size: 16px;
+    margin: 10px auto;
+   
+}
+
+    
+}
+
 /* 
 @keyframes Rain {
     0%{
