@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&family=Sassy+Frass&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #464f65;
+    font-family: 'Roboto', sans-serif;
+}
+.logo h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.line{
+    border-top: 1px solid rgb(215, 218, 219);
+    height: 1px;
+    max-width: 220px;
+    padding:10px 0;
+    margin: 2px auto 0 auto;
+}
+.container{
+    border: 2px solid white;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+}
+.wheather-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    border: 2px solid greenyellow;
+
+}
+.Wheather-img img{
+    width: 100px;
+}
+.wheather-titles{
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.wheather-titles h2{
+    margin: 10px 0;
+}
+.wheather-box{
+    background-color: #fff;
+    margin: 30px auto;
+    width: 60%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+.wheather-box h2{
+    font-size: 35px;
+    margin: 20px 0;
+    color: #464f65;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+form input,
+select,
+button{
+    padding: 10px 15px;
+    width: 60%;
+    color: #464f65;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #464f65;
+
+}
+
+.wheather-btn{
+    border: none;
+    background-color: #464f65;
+    color: #fff;
+}
+.rain{
+    position:absolute;
+    top: 0;
+    animation: Rain 3s linear infinite ;
+}
+.rain img{
+    width: 50px;
+    opacity: .3;
+
+}
+.img-bandera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.img{
+    width: 100px;
+    margin: auto;
+}
+
+.rain:nth-child(1){
+    top: 10;
+    left: 15%;
+}
+.rain:nth-child(2){
+    top: 60;
+    left: 30%;
+}
+.rain:nth-child(3){
+    top: 50;
+    left: 60%;
+}
+.rain:nth-child(4){
+    top:20;
+    left: 40%;
+}
+.rain:nth-child(5){
+    top:90;
+    left: 50%;
+}
+/* 
+@keyframes Rain {
+    0%{
+        top: 0;
+        transform: translateY(0);
+    }
+    50%{
+        opacity: .4;
+        transform: translateY(700px);
+    }
+    100%{
+        top: 100;
+        opacity: .3;
+        transform: translateY(40);
+
+    }
+    
+} */
